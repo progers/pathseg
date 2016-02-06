@@ -1,0 +1,26 @@
+{
+  "name": "pathseg",
+  "version": "0.0.0",
+  "description": "SVGPathSeg polyfill",
+  "main": "pathseg.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AutomateAllTheThings/pathseg.git"
+  },
+  "keywords": [
+    "SVG",
+    "polyfill",
+    "pathseg"
+  ],
+  "author": "progers",
+  "bugs": {
+    "url": "https://github.com/AutomateAllTheThings/pathseg/issues"
+  },
+  "homepage": "https://github.com/AutomateAllTheThings/pathseg#readme"
+}
