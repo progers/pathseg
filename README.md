@@ -1,5 +1,7 @@
 # SVGPathSeg polyfill
 
+[![Bower][bower-img]][bower]
+
 This is a drop-in replacement for the SVGPathSeg and SVGPathSegList APIs that were removed from SVG2 (https://lists.w3.org/Archives/Public/www-svg/2015Jun/0044.html). Existing code that uses the SVGPathSeg or SVGPathSegList APIs can use this polyfill to keep working. This polyfill is based on the exact code and tests that were removed from Chromium 47.
 
 The SVGPathSeg API was difficult to use and has been removed from the SVG spec in favor of a new, awesomer API in the Paths module (https://lists.w3.org/Archives/Public/www-svg/2015Jun/0044.html). All new development should use the SVG Path Data API. There's a polyfill ([path-data-polyfill.js](https://github.com/jarek-foksa/path-data-polyfill.js)) for browsers that do not yet support the new API.
@@ -34,3 +36,6 @@ These APIs have been removed from SVG 2 but their original definitions can be fo
 http://www.w3.org/TR/SVG/single-page.html#paths-InterfaceSVGPathSeg
 
 http://www.w3.org/TR/SVG/single-page.html#paths-InterfaceSVGPathSegList
+
+[bower-img]: http://img.shields.io/bower/v/pathseg.svg
+[bower]: http://bower.io/search/?q=pathseg
