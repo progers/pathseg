@@ -387,7 +387,7 @@
             enumerable: true
         });
 
-        //length property is built in Firefox 58-
+        // The length property was not specified but was in Firefox 58.
         Object.defineProperty(window.SVGPathSegList.prototype, "length", {
             get: function() {
                 this._checkPathSynchronizedToList();
